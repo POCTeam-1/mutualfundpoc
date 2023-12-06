@@ -16,7 +16,6 @@ public class UserServiceImpl {
 	public User createUser(UserRegisterModel userRegisterModel) {
 		User user=new User();
 		return userRepository.save(user);
-		
 	}
 	
 	
